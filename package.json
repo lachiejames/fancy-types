@@ -5,9 +5,13 @@
     "author": "Lachie James",
     "license": "MIT",
     "main": "lib/index.js",
-    "dependencies": {},
+    "dependencies": {
+        "gaxios": "^4.3.0",
+        "lodash": "^4.17.21"
+    },
     "devDependencies": {
         "@types/jest": "26.0.23",
+        "@types/lodash": "^4.14.171",
         "@types/node": "15.0.2",
         "@typescript-eslint/eslint-plugin": "4.27.0",
         "@typescript-eslint/parser": "4.27.0",

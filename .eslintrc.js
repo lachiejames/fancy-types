@@ -31,15 +31,11 @@ module.exports = {
         node: true,
         jest: true,
     },
-    overrides: [
-        {
-            files: ["*.js"],
-            rules: {
-                "@typescript-eslint/no-var-requires": "off",
-            },
-        },
-    ],
     rules: {
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "prefer-const": "off",
         "import/no-duplicates": "error",
         "import/order": [
             "error",
